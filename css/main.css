@@ -1,0 +1,38 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF;
+  font: 16px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2 {
+  font-size: 100%;
+}
+
+/* Site */
+.site {
+  text-align: center;
+  width: 42em;
+  margin: 10em auto 2em;
+  line-height: 1.5em;
+}
+
+.site h2 {
+  font: 26px Helvetica, Arial, sans-serif;
+}
+
+.site a {
+  color: #666;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site a:hover {
+  color: #333;
+}
