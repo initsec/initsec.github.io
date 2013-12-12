@@ -1,0 +1,45 @@
+{% include head.html %}
+<h1 class="hidden">Initsec · Testes de invasão, infraestrutura e treinamentos</h1>
+<header id="top" class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <nav role="navigation">
+      <h1 class="hidden">Menu de Navegação</h1>
+      <div class="navbar-header row">
+        <ul class="nav navbar-nav navbar-right visible-xs initsec-nav-icon">
+          <li class="active">
+            <a href="/" title="Conheça a Initsec"><span class="glyphicon glyphicon-info-sign"></span></a>
+          </li>
+          <li>
+            <a href="#section-services" title="Conheça a Initsec"><span class="glyphicon glyphicon-cog"></span></a>
+          </li>
+          <li>
+            <a href="#section-contact" title="Conheça a Initsec"><span class="glyphicon glyphicon-envelope"></span></a>
+          </li>
+        </ul>
+        <a class="navbar-brand col-xs-5 col-sm-8 col-md-10" href="/"><img alt="Initsec Logo" class="img-responsive" src="/images/design/brand.svg"></a>
+      </div>
+      <div class="collapse navbar-collapse initsec-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/" title="Conheça a Initsec">home</a>
+          </li>
+          <li class="active">
+            <a href="#section-services" title="Nossos serviços">o que fazemos</a>
+          </li>
+          <li>
+            <a href="#section-contact" title="Entre em contato">contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<main class="mgt" role="main">
+<div id="section-services" class="wrap">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
+{% include contato.html %}
+</main>
+{% include footer.html %}
